@@ -23,13 +23,15 @@ Data preparation is executed after the data was collected, upon concluding that 
 
 In modeling step, a selection od models are applied onto the cleaned dataset where all the features created at the end of data preparation are inserted into the model for prediction. Here, model training was done for two different predictions: binary classification and multiclass classification. Binary classification predicts whether a tweet will be retweeted or not and multiclass classification predicts how many retweets it will receive. In order to use resources and computational power as efficiently as possible, the models are sometimes trained on GPU using pycaret. Various techniques are applied in order to reach the highest recall rate as possible, including fine tuning, ensembling and blending models and SMOTE is used in order to prevent data leakage. 
 
-For binary classification, 89.66% recall accuracy is reached and for multiclass classification, the recall is 82.18%. 
-For binary classification, highest recall is reached through blending ensembled models and for multiclass classification, the rate is highest for ensembled LightGBM. The success measures are given below.
+For binary classification, 89.66% recall accuracy is reached through blending ensembled models and for multiclass classification, the highest recall is 82.18% with ensembled LighGBM model. Because of the lack of extensive prior research on predicting popularity of commercial tweets, a benchmark is hard to make. However, due to the comparison made during the research with other studies that focus on predicting personal tweets, both metrics stands out slightly outperforming the average findings.
 
 Binary Classification:
-![image](https://github.com/ardahiz/populartweets/assets/81987695/f2fe9069-af56-4899-9c98-0b35f2497c77)
+
+![image](https://github.com/ardahiz/populartweets/assets/81987695/945e9e02-be19-4694-8c21-5e4b7644b360)
+
 
 Multiclass Classification:
+
 ![image](https://github.com/ardahiz/populartweets/assets/81987695/51b7a068-9b11-4b9e-9432-e1cb40a8c1ac)
 
 
