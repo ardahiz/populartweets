@@ -12,7 +12,7 @@ Within the scope of this project, CRISP-DM methodology was followed in order to 
 ![image](https://github.com/ardahiz/populartweets/assets/81987695/805d020e-2710-404f-a63d-73581e789ef8)
 
 
-1-Scraping corresponds to data understanding, while 2-Preparation consists data preparation. 3-Modeling notebooks covers the modeling, evaluation and deployment steps.
+1-Scraping notebook corresponds to data understanding, while 2-Preparation consists data preparation. 3-Modeling notebooks covers the modeling, evaluation and deployment steps.
 
 **CRISP-DM Steps**
 
